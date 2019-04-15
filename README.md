@@ -13,6 +13,7 @@ git config --global alias.xx     # set alias of a command
 ## Basic git operations
 ```
 git help <operation> or git <operation> -h    # get help of that operation 
+
 git status            # checking the status of files, 
                         <options> -s get simplified output
                         
