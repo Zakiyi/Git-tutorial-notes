@@ -15,8 +15,8 @@ git config --global alias.xx     # set alias of a command
 git help <operation> or git <operation> -h    # get help of that operation 
 git status            # checking the status of files, 
                         <options> -s get simplified output
-git add               # add file to staging area
-git commit            # adds staged changes to local repository, i.e.records the snapshot you set up in your staging area
+git add               # take snapshots of the revised files, and add snapshots to staging area
+git commit            # records the snapshot you set up in your staging area, adds it to repository
                         <options> -a automatically stage every file that is already tracked before doing the commit
 git diff              # compares what is in working directory with what is in staging area. 
 ```
