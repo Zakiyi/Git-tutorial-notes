@@ -16,21 +16,21 @@ git config --global alias.xx     # set alias of a command
 ```
 git help <operation> or git <operation> -h    # get help of that operation 
 
-git status            # checking the status of files, 
-                        <options> -s get simplified output
+git status      # checking the status of files, 
+                  <options> -s get simplified output
                         
-git add               # takes a picture of what the files look like at current moment, and
-                        add snapshot to staging area. more exactly, stores reference to that snapshot.
+git add         # takes a picture of what the files look like at current moment, and
+                  add snapshot to staging area. more exactly, stores reference to that snapshot.
 
-git commit            # records the snapshot you set up in your staging area, adds it to repository
-                        <options> -a stage every file that is already tracked before doing the commit
+git commit      # records the snapshot you set up in your staging area, adds it to repository
+                  <options> -a stage every file that is already tracked before doing the commit
                         
-git diff              # compares what is in working directory with what is in staging area.
-git mv                # move file or rename file
+git diff        # compares what is in working directory with what is in staging area.
+git mv          # move file or rename file
 
-git rm                # remove tracked file 
-                        <options> -f remove tracked file from staging area, and delete it from woking tree
-                                  -cached remove tracked file from staging area but remain it in working tree
+git rm          # remove tracked file 
+                  <options> -f remove tracked file from staging area, and delete it from woking tree
+                            -cached remove tracked file from staging area but remain it in working tree
                                   
-git log              # viewing the commit history
+git log         # viewing the commit history
 ```
