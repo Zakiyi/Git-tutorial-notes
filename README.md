@@ -17,9 +17,8 @@ git help <operation> or git <operation> -h    # get help of that operation
 git status            # checking the status of files, 
                         <options> -s get simplified output
                         
-git add               # takes a picture of what all your files look like at current moment,
-                        and add snapshots to staging area.
-                      # exactly, stores a reference to that snapshot.
+git add               # takes a picture of what the files look like at current moment, and
+                        add snapshots to staging area. more exactly, stores a reference to that snapshot.
 
 git commit            # records the snapshot you set up in your staging area, adds it to repository
                         <options> -a stage every file that is already tracked before doing the commit
