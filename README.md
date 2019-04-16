@@ -24,6 +24,7 @@ git add         # takes a picture of what the files look like at current moment,
 
 git commit      # records the snapshot you set up in your staging area, adds it to repository
                   <options> -a: stage every file that is already tracked before doing the commit
+                       --amend: end up with a single commit — the second commit replaces the results of the first.
                         
 git diff        # compares what is in working directory with what is in staging area.
 git mv          # move file or rename file
