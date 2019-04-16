@@ -23,5 +23,12 @@ git add               # takes a picture of what the files look like at current m
 git commit            # records the snapshot you set up in your staging area, adds it to repository
                         <options> -a stage every file that is already tracked before doing the commit
                         
-git diff              # compares what is in working directory with what is in staging area. 
+git diff              # compares what is in working directory with what is in staging area.
+git mv                # move file or rename file
+
+git rm                # remove tracked file 
+                        <options> -f remove tracked file from staging area, and delete it from woking tree
+                                  -cached remove tracked file from staging area but remain it in working tree
+                                  
+git log              # viewing the commit history
 ```
