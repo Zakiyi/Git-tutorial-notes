@@ -33,9 +33,9 @@ git rm          # remove tracked file
                   <options> -f: remove tracked file from staging area, and delete it from woking tree
                             -cached: remove tracked file from staging area but remain it in working tree
                                   
-git log         # viewing the commit history&#x1F344;
+git log         # viewing the commit history
 git reset       # unstaging a staged file
 git checkout --   # unmodifying a modified file, restore a tracked file to the last snapshot
 ```
 
-> It’s important to understand that git checkout -- <file> is a dangerous command.  Git just replaced that file with the most recently-committed version. &#x1F344;
+> It’s important to understand that git checkout -- <file> is a dangerous command.  Git just replaced that file with the most recently-committed version. &#x1F344;&#x1F4A2;&#x26D4
