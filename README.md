@@ -40,7 +40,9 @@ git clean -f      # cleaning working directory
                     <options> must be used with -f
                      -d: using to remove both directory and file
                      -x: reomve ignored files
-                     -n: show files and directories that gona be removed
+                     -n: show files and directories that will be removed
 ```
 
 It’s important to understand that git checkout -- <file> is a dangerous command.  Git just replaced that file with the most recently-committed version. &#x1F344; &#x1F344;
+  
+## Remote Repository
