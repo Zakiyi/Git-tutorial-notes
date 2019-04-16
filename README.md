@@ -1,7 +1,7 @@
 # Git-tutorial-notes
 This repository is created for learning basic Git operations using command line. The tutorial material include official Pro Git book as well as related youtube videos.
 
-        ![](https://github.com/Zakiyi/Git-tutorial-notes/blob/master/git_index_structure.png)
+![](https://github.com/Zakiyi/Git-tutorial-notes/blob/master/git_index_structure.png)
 
 ## Initialization and Configuration 
 ```
