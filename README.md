@@ -33,7 +33,7 @@ git rm          # remove tracked file
                   <options> -f: remove tracked file from staging area, and delete it from woking tree
                             -cached: remove tracked file from staging area but remain it in working tree
                                   
-git log         # viewing the commit history
+git log         # viewing the commit history&#x1F344;
 git reset       # unstaging a staged file
 git checkout --   # unmodifying a modified file, restore a tracked file to the last snapshot
 ```
