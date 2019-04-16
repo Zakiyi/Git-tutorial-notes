@@ -36,6 +36,11 @@ git rm          # remove tracked file
 git log         # viewing the commit history
 git reset       # unstaging a staged file
 git checkout --   # unmodifying a modified file, restore a tracked file to the last snapshot
+git clean -f      # cleaning working directory
+                    <options> must be used with -f
+                     -d: using to remove both directory and file
+                     -x: reomve ignored files
+                     -n: show files and directories that gona be removed
 ```
 
 It’s important to understand that git checkout -- <file> is a dangerous command.  Git just replaced that file with the most recently-committed version. &#x1F344; &#x1F344;
