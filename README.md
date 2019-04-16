@@ -38,4 +38,4 @@ git reset       # unstaging a staged file
 git checkout --   # unmodifying a modified file, restore a tracked file to the last snapshot
 ```
 
-It’s important to understand that git checkout -- <file> is a dangerous command.  Git just replaced that file with the most recently-committed version.
+> It’s important to understand that git checkout -- <file> is a dangerous command.  Git just replaced that file with the most recently-committed version. &#x1F344;
