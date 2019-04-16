@@ -10,7 +10,7 @@ git config --global user.email   # set user email
 git config --global core.editor  # set default editor
 git config --global alias.xx     # set alias of a command
 ```
-## Basic Git Operations
+## Basic Git Commands
 ```
 git help <operation> or git <operation> -h    # get help of that operation 
 
