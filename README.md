@@ -46,3 +46,18 @@ git clean -f      # cleaning working directory
 It’s important to understand that git checkout -- <file> is a dangerous command.  Git just replaced that file with the most recently-committed version. &#x1F344; &#x1F344;
   
 ## Remote Repository
+```
+git remote      # show the remotes
+                  <options>
+                     -v: show shortname and URL of remote repostiory
+                   show: [remote-name] show detailed information of remote repository
+                    add: <shortname> <url> add a new remote repository as a shortname that user can easily reference
+                 rename: <old name> <new name> rename a remote repository
+                     rm: remove a remote repository
+                     
+git clone       # pull down all data from a remote repository (default branch) to given directory, and sets up local                           master branch to track the remote master branch (or other default branch)                   
+git fetch       # pull data from remote repository, and update remote tracking branch
+git pull        # pull data from remote repository, and merge the remote branch with current local branch
+git push        # upload local branch to remote branch
+                   
+```
