@@ -58,6 +58,6 @@ git remote      # show the remotes
 git clone       # pull down all data from a remote repository (default branch) to given directory, and sets up local                           master branch to track the remote master branch (or other default branch)                   
 git fetch       # pull data from remote repository, and update remote tracking branch
 git pull        # pull data from remote repository, and merge the remote branch with current local branch
-git push        # upload local branch to remote branch
+git push        # update local branch to remote branch
                    
 ```
