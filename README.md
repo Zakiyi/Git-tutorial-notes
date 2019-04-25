@@ -61,8 +61,14 @@ git pull        # pull data from remote repository, and merge the remote branch 
 git push        # update local branch to remote branch
                    
 ```
-# Authenticating with GitHub from Git
-One can choose to connect over HTTPS or connect over SSH.
-* Connecting over HTTPS
+## Authenticating with GitHub from Git
+One can choose to connect over HTTPS or connect over SSH, detailed information can be seen [here](https://help.github.com/en/articles/which-remote-url-should-i-use#cloning-with-ssh-urls).
 
-* Connecting over SSH
+when connecting over SSH, a new ssh-key is needed.
+```
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_rsa
+```
+
