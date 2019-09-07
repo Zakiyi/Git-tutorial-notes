@@ -1,5 +1,5 @@
 # Git-tutorial-notes
-This repository is created for learning basic Git operations using command line. The tutorial material include official Pro Git book as well as related youtube videos. A more detailed chinese version can be seen in [my blog](https://zakiyi.github.io/2019/04/22/Pro-Git-1/).
+This repository is created for learning basic Git operations using command line. The tutorial material include official [Pro Git book](https://git-scm.com/book/en/v2) as well as related youtube videos. A more detailed chinese version can be seen in [my blog](https://zakiyi.github.io/2019/04/22/Pro-Git-1/).
 
 ![](https://github.com/Zakiyi/Git-tutorial-notes/blob/master/git_index_structure.png)
 
